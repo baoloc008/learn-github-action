@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.2aeecb0f.js",
-    "static/js/787.54261ca0.chunk.js": "/static/js/787.54261ca0.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.2aeecb0f.js.map": "/static/js/main.2aeecb0f.js.map",
-    "787.54261ca0.chunk.js.map": "/static/js/787.54261ca0.chunk.js.map"
+    "main.css": "/learn-github-action/static/css/main.073c9b0a.css",
+    "main.js": "/learn-github-action/static/js/main.bc49147f.js",
+    "static/js/787.54261ca0.chunk.js": "/learn-github-action/static/js/787.54261ca0.chunk.js",
+    "static/media/logo.svg": "/learn-github-action/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/learn-github-action/index.html",
+    "main.073c9b0a.css.map": "/learn-github-action/static/css/main.073c9b0a.css.map",
+    "main.bc49147f.js.map": "/learn-github-action/static/js/main.bc49147f.js.map",
+    "787.54261ca0.chunk.js.map": "/learn-github-action/static/js/787.54261ca0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.2aeecb0f.js"
+    "static/js/main.bc49147f.js"
   ]
 }
