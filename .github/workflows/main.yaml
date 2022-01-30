@@ -3,11 +3,10 @@ name: Deploy Github Pages
 on:
   push:
     branches: [master]
-
   workflow_dispatch:
 
 jobs:
-  test:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -15,16 +14,8 @@ jobs:
         run: yarn
       - name: Run test
         run: yarn test
-  build:
-    needs: [test]
-    runs-on: ubuntu-latest
-    steps:
       - name: Build
         run: yarn build
-  deploy:
-    needs: [build]
-    runs-on: ubuntu-latest
-    steps:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.2
         with:
